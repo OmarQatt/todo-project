@@ -1,0 +1,202 @@
+@import url(bootstrap.css) screen;
+* {
+    margin: 0;
+    padding: 0px;
+
+}
+/*
+    HEADER SECTION
+ */
+.header-section{
+    display: block;
+    width: 20%;
+    padding: 20px 0;
+    position: relative;
+    transition: all 1s;
+    background: #fff;
+}
+header.header-section.fixed {
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    z-index: 99999;
+    border-bottom: 1px solid #1abc9c;
+    padding: 10px 0;
+    transition: all 1s;
+}
+.header-section .navbar{
+    height: auto;
+    min-height: none;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+    background: transparent !important
+}
+.header-section .navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #555252;
+}
+.header-section .navbar .navbar-brand b{
+    color: #624d69;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    text-align: center;
+    padding: 0 !important;
+    background: transparent !important;
+}
+ul.navbar-nav{
+    background: transparent;
+    margin: 0 auto;
+    margin-bottom: -5px;
+    display: inline-block;
+    float: none;
+}
+ul.navbar-nav li a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #0f0101 !important;
+    background: transparent !important;
+    text-transform: uppercase;
+}
+ul.navbar-nav li.active a, ul.navbar-nav li a:hover{
+    color: #624d69 !important;
+}
+ul.navbar-nav.cart-menu li a{
+    padding-right: 0;
+    color: #0f0101;
+    font-weight: 700;
+}
+
+
+
+
+.information{
+    width: 80%;
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.information h1{
+    color: #624d69;
+    text-decoration: none;
+    font-size: 40px;
+    }
+    .information h1::after{
+       content: '';
+       width: 0%;
+       height: 2px;
+       background-color: #624d69;
+       display: block;
+       margin: auto;
+       transition: 0.5s;
+    }
+    .information h1:hover::after{
+        width: 28%;
+     }
+     .information p{
+        color: #624d69;
+        text-decoration: none;
+        font-size: 22px;
+        }
+        .information p::after{
+           content: '';
+           width: 0%;
+           height: 2px;
+           background-color: #624d69;
+           display: block;
+           margin: auto;
+           transition: 0.5s;
+        }
+        .information p:hover::after{
+            width: 52%;
+         }
+.information-about-me{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.information{
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    transition: 0.5s;
+}
+.information img {
+border-radius: 30%;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.information:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 30%;
+}
+
+
+
+
+
+input,textarea {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+  }
+
+  label {
+    line-height: 1rem;
+  }
+
+  input[type="submit"] {
+   padding: 3px;
+   margin-top: 0.1rem;
+   font-family: cursive;
+   font-weight: bold;
+  }
+  fieldset {
+    padding: 20px 500px;
+  }
+
+
+
+
+  .contact{
+    margin: 100px 0 0 0;
+    width: 100%;
+    background-image: url(../Footer.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;   
+}
+.contact h1{
+color: #04243C;
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+.contact-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 32px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    border: 1px solid #04243C;
+    background: #04243C;
+    transition: 1s;
+}
