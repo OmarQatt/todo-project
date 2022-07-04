@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <title>Document</title>
+    <style>   
+        /* Style the Sticky icons on web page */   
+        .stickyicon-list {   
+        position: fixed;   
+        top: 200px;   
+        transform: translateY(-50%);             
+        }         
+        .stickyicon-list a {   
+        display: block;   
+        text-align: center;   
+        padding: 8px;   
+        transition: all 0.5s ease;   
+        color: white;   
+        font-size: 20px;   
+        }         
+        /* HOver affect on sticky social media icons */   
+        .stickyicon-list a:hover {   
+        color: #000;   
+        width:10px;   
+        }   
+           
+        /* Now we have to design each icon of social media */         
+        .facebook {   
+        background: #3b5998;   
+        color: white;  
+        }         
+        .twitter {   
+        color: white;   
+        background: #00acee;   
+        }   
+        .linkedin {   
+        background: #0e76a8;   
+        color: white;   
+        }         
+        .google {   
+        color: white;   
+        background: #db4a39;   
+        }   
+        .instagram {   
+        background: #3f729b;   
+        color: white;   
+        }         
+        .youtube {   
+        color: white;   
+        background: #c4302b;    
+        }   
+        </style>   
+</head>
+<body>
+    
+    <header class="header-section">
+        <nav class="navbar navbar-default">
+            <div class="container">
+               
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><b>T</b>odo<b>P</b>roject</a>
+                </div>
+
+             
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">Our Project</a></li>
+                        <li><a href="#">contact Us</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+<section class="about-me">
+
+<div class="information-about-me">
+  <div class="information" id="omar">
+    <h1>About Me</h1>
+<p>fresh graduate from al al-bait university major computer scince.</p>
+    <img src="omar.jpeg" width="200px">
+    <h3>Lerning JavaScript</h3>
+    <p>I came to this course to strengthen my skills in web page design and learn other <br>skills such as speaking English,communication skills, professional staring at interviews and writing emails.</p>
+  </div>
+</div>
+</section>
+
+
+<section>
+
+    
+    <form action="mywebsite.com" method="POST">
+        <fieldset>
+        <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter name" />
+    </div>
+    <div>
+        <label for="email">email</label>
+        <input type="email" placeholder="Enter your email" />
+    </div>
+    <div>
+        <label for="text-box">Enter your message</label>
+        <textarea cols="50" rows="20"></textarea>
+    </div>
+        <input type="button" value="Submit" />
+    </fieldset>
+    </form>
+
+</section>
+
+
+<section class="contact">
+    <h1>ToDo Project</h1>
+    <a href="" class="contact-btn">CONTACT US</a>
+    <div class="stickyicon-list">  
+        <a href="#facebook" class="facebook">   
+        <i class="fa fa-facebook"></i>   
+        </a>   
+        <a href="#twitter" class="twitter">   
+        <i class="fa fa-twitter"></i>   
+        </a>       
+        <a href="#linkedin" class="linkedin">   
+        <i class="fa fa-linkedin"></i>   
+        </a>   
+        <a href="#google" class="google">   
+        <i class="fa fa-google"></i>   
+        </a>     
+        <a href="#instagram" class="instagram">   
+        <i class="fa fa-instagram"></i>   
+        </a>                              
+        <a href="#youtube" class="youtube">   
+        <i class="fa fa-youtube"></i>   
+        </a>   
+        </div>   
+  </section>
+
+</body>
+</html>
