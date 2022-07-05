@@ -10,10 +10,18 @@ Gender();
 var age = window.prompt("Enter your age");
 Age();
 
-var userAnswer = confirm("do you want to skip the welcoming message")
-console.log(userAnswer)
+function skipMeassage(){
+    var userAnswer = confirm("do you want to skip the welcoming message")
+    console.log(userAnswer)
+    if(userAnswer){
+        console.log("skipped then contune")
+    } else {
+        welcomeMeassage(); 
+    }
+    
+}
+skipMeassage();
 
-welcomeMeassage(); 
 
 function welcomeMeassage() {
 if(gender=="male"|| gender =="female"){
