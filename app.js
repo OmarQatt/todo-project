@@ -57,20 +57,20 @@ function moreQuestions(){
 for (var index = 0; index < 3; index++) {
     
    if(index==0){
-    threeAnswer.push(prompt("what color do you love ?"));
+    threeAnswer.push(prompt("Do you love blue color ?"));
     if(threeAnswer[0]==""){
         alert("invalid")
     }
     
    }
    else if (index==1){
-    threeAnswer.push(prompt("what car do you love ?"));
+    threeAnswer.push(prompt("Do you love car?"));
     if(threeAnswer[1]==""){
         alert("invalid")
     }
    }
    else {
-    threeAnswer.push(prompt("what country do you love ?"));  
+    threeAnswer.push(prompt("Do you love traviling"));  
     if(threeAnswer[2]==""){
         alert("invalid")
     }
